@@ -44,6 +44,7 @@ export default class App extends Component{
           <Text style = {styles.postDescription}>Leia mais .....</Text>
 
         </View>
+        
           </ScrollView>
           
           
@@ -83,5 +84,7 @@ const styles = StyleSheet.create({
   
   
 });
+
+
 
 

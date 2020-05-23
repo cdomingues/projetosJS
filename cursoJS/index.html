@@ -1,0 +1,51 @@
+
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Java Script</title>
+</head>
+<body>
+    <script>
+     
+var endereco = {
+ rua: "Rua dos pinheiros",
+ numero: 1293,
+ bairro: "Centro",
+ cidade: "São Paulo",
+ uf: "SP"
+};
+console.log("O usuário mora em " + endereco.cidade + " / " + endereco.uf + ", na rua " + endereco.rua + " no número "+ endereco.numero + ".");
+
+    </script>
+
+
+
+
+
+
+<script>
+   const calcExp = age => {
+  switch (true) {
+    case age >= 0 && age <= 1:
+      console.log(`Você tem ${age} anos de exp, seu nível é: Iniciante`);
+      break;
+    case age >= 1 && age <= 3:
+      console.log(`Você tem ${age} anos de exp, seu nível
+é: Intermediário`);
+      break;
+    case age >= 3 && age <= 6:
+      console.log(`Você tem
+${age} anos de exp, seu nível é: Avançado`);
+      break;
+    default:
+      console.log(`Você
+tem ${age} anos de exp, seu nível é: Jedi Master `);
+      break;
+  }
+};
+calcExp(10);
+
+
+</script>
+
+</body>
+</html>
