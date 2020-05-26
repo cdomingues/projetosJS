@@ -112,6 +112,6 @@ const idade = '37';
 
 console.log(`Meu nome é ${nome2} e tenho ${idade} anos`);
 */
-alert('teste!');
+alert('testando!');
 
 
